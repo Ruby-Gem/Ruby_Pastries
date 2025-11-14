@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-UK">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,30 +18,43 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Ruby Pastries Portfolio</title>
+    <link href="styles/portfolio.css" rel="stylesheet"/>
+    <title>Ruby Portfolio</title>
   </head>
   <body>
-    <div class="about-section container">
-        <div class="row">
-        <div class="col-6">
-            <div class="about-section-content">
-    <h1 class="mb-4">Hi i am Elizabeth David</h1>
-    <h2 class="mb-4">A baker, based in Lagos Nigeria</h2>
-    <p class="mb-4">
-      I am the proud founder and CEO of Ruby Pastries. A brand built on my love
-      for baking and my commitment to excellence,recognized for its exquisite,
-      handcrafted pastries. What started as a passion for creating delicious,
-      beautifully crafted pastries has evolved into a thriving business where I
-      get to bring joy to people through my creations.
-    </p>
-    <a href="#" class="btn btn-branding-outline">View my projects</a>
-    </div>
-    </div>
-    <div class="col-6">
-    <img src="images/ceo ruby.jpg" class="square-contain img-fluid" alt="ceo" />
-    </div>
-    </div>
+    <div class="hero">
+      <div class="container">
+        <div class="cols">
+          <div class="col-6">
+            <div>
+              <div class="pre-title">Hi! I am</div>
+              <h1>Elizabeth David</h1>
+              <div class="subtitle">
+                <code>A web developer,</code> UI designer, with <em>a passion for baking</em>
+              </div>              
+            </div>
+            <p class="leading">
+              I am the proud founder and CEO of Ruby Pastries. A brand built on my love &
+              passion for baking, my commitment to excellence. It is recognized by its exquisite,
+              handcrafted designs. What started as a passion for creating delicious,
+              beautifully crafted pastries has evolved into a thriving business where 
+              I get to bring joy to people through my creation.
+            </p>
+            <div class="buttons" role="group">
+              <a href="./projects.html" target="_self" class="btn btn-branded">View my Project</a>
+              <a href="./about.html" target="_self" class="btn btn-outline-primary">Contact Me</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="cover-photo" title="Elizabeth David, 
+            Female, 
+            29 years. 
+            Hire me!">
+              <img class="" src="./images/ceo ruby.jpg" alt="Profile photo of Elizabeth">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
