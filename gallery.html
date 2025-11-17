@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light-dark" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="styles/portfolio.css" rel="stylesheet"/>
+    <title>Ruby Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container wide">
+        <a class="brand-logo" href="" target="_self">
+          <img class="brand-icon" src="./images/brand_logo.png" alt="Ruby Pastries logo" loading="eager">
+          <span>Portfolio</span>
+        </a>
+        <ul class="nav-links" aria-hidden="false" role="list">
+          <li>
+            <a class="link" href="index.html" target="_self">Home</a>
+          </li>
+          <li>
+            <a class="link" href="./project.html" target="_self">Projects</a>
+          </li>
+          <li>
+            <a class="link current" href="./gallery.html" target="_self">Gallery</a>
+          </li>
+          <li>
+            <a class="link" href="./about.html" target="_self">About</a>
+          </li>
+        </ul>
+        <ul class="nav-links">
+          <li>
+            <a class="button btn-outline-primary sm" href="tel:7031536098" target="_blank">Call me 📞</a>
+          </li>
+        </ul>
+        <div class="mobile-only menu-icon"></div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="hero">
+        <div class="container">
+          <div style="text-align: center;">
+            <div>
+              <div class="pre-title">👋 Welcome to my 😃</div>
+              <h1 class="display-1 italics">Amusing Gallery</h1>
+              <div class="subtitle">
+                Where the grinding never ceases
+              </div>              
+            </div>
+            <p class="leading">
+              Thanks for taking a moment to look through my efforts and projects. 
+              It would mean a lot to use if you let us know you are there by
+              leaving a like or a comment and especially patronizing us.
+              <strong>Message us on WhatsApp today</strong>
+            </p>
+            <div class="buttons" role="group">
+              <a href="https://wa.me/07031586098" target="_blank" class="btn btn-branded">Start Chatting 💬</a>
+              <a href="/about.html" target="_self" class="btn btn-outline-primary">Send Some 💗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" style="background-color: var(--background-light);">
+        <div class="container wider">
+          <div class="mansory">
+            <figure 
+              onclick="expandImg(this)" 
+              class="mansory-card"
+              tabindex="0"
+              data-index="1"
+              data-src="./images/20210113_112838.jpg" 
+              data-caption="3-inch bento birthday cake with butter cream design, cherry tips, butterfly deco and glossy topper." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20210113_112838.jpg" alt="3-inch bento birthday" loading="lazy">
+              <figcaption>
+                3" bento cake with buttercream design
+              </figcaption>
+            </figure>
+            <figure 
+              onclick="expandImg(this)" 
+              class="mansory-card"
+              tabindex="1"
+              data-index="2"
+              data-src="./images/20210113_112848.jpg" 
+              data-caption="3-inch bento birthday cake with butter cream design, cherry tips, butterfly deco and glossy topper." 
+              aria-ratio="3/4">
+              <img class="mansory-img" src="./images/20210113_112848.jpg" alt="3-inch bento birthday cake" loading="lazy">
+              <figcaption>
+                3" bento cake with buttercream design
+              </figcaption>
+            </figure>
+            <figure 
+              onclick="expandImg(this)" 
+              class="mansory-card"
+              tabindex="2"
+              data-index="3"
+              data-src="./images/20210331_080044.jpg" 
+              data-caption="3-inch bento birthday cake with butter cream design, cherry tips, butterfly deco and glossy topper." 
+              aria-ratio="3/4">
+              <img class="mansory-img" src="./images/20210331_080044.jpg" alt="3-inch bento birthday cake" loading="lazy">
+              <figcaption>
+                3" 2-layer bento cake with buttercream design
+              </figcaption>
+            </figure>
+            <figure 
+              onclick="expandImg(this)" 
+              class="mansory-card"
+              tabindex="3"
+              data-index="4"
+              data-src="./images/20210712_082511.jpg" 
+              data-caption="3-inch bento birthday cake with butter cream design, cherry tips, butterfly deco and glossy topper." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20210712_082511.jpg" alt="3-inch bento birthday cake" loading="lazy">
+              <figcaption>
+                4" 2-layer cake with buttercream design
+              </figcaption>
+            </figure>
+            <figure 
+              onclick="expandImg(this)" 
+              class="mansory-card"
+              tabindex="4"
+              data-index="5"
+              data-src="./images/20210731_200350.jpg" 
+              data-caption="3-inch bento birthday cake with butter cream design, cherry tips, butterfly deco and glossy topper." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20210731_200350.jpg" alt="3-inch bento birthday cake" loading="lazy">
+              <figcaption>
+                Chocolate toppings decoration
+              </figcaption>
+            </figure>
+            <figure 
+              onclick="expandImg(this)" 
+              class="mansory-card"
+              tabindex="5"
+              data-index="6"
+              data-src="./images/20220916_105143.jpg" 
+              data-caption="3-inch bento birthday cake with butter cream design, cherry tips, butterfly deco and glossy topper." 
+              aria-ratio="9/16">
+              <img class="mansory-img" src="./images/20220916_105143.jpg" alt="3-inch bento birthday cake" loading="lazy">
+              <figcaption>
+                Cup cakes
+              </figcaption>
+            </figure>
+            <figure
+              class="mansory-card"
+              tabindex="6"
+              data-index="7"
+              data-src="./images/20220924_215234.jpg" 
+              data-caption="3-inch bento birthday cake with butter cream design, cherry tips, butterfly deco and glossy topper." 
+              aria-ratio="9/16">
+              <img class="mansory-img" src="./images/20220924_215234.jpg" alt="3-inch bento birthday cake" loading="lazy">
+              <figcaption>
+               Naked marble cake
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="7"
+              data-index="8"
+              data-src="./images/20221015_213610.jpg" 
+              data-caption="Naked 5-inch cake before it is sliced and decorated." 
+              aria-ratio="16/10">
+              <img class="mansory-img" src="./images/20221015_213610.jpg" alt="Naked 5inch cake before decoration" loading="lazy">
+              <figcaption>
+                Naked 8" cake before it is sliced and decorated.
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="8"
+              data-index="9"
+              data-src="./images/20221023_183331.jpg" 
+              data-caption="Naked cup cakes that would leave you silivating." 
+              aria-ratio="16/10">
+              <img class="mansory-img" src="./images/20221023_183331.jpg" alt="naked cup cakes by Ruby Pastries" loading="lazy">
+              <figcaption>
+                Naked cup cakes that would leave you silivating
+              </figcaption>
+            </figure>
+            <figure
+              class="mansory-card"
+              tabindex="9"
+              data-index="10"
+              data-src="./images/20221107_073613.jpg" 
+              data-caption="Decorations come in several form. Nothing like a good old fashion synthetic flower to beautify your cake for any occassion." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20221107_073613.jpg" alt="2 step cake" loading="lazy">
+              <figcaption>
+                Flowery fondant cake decoration
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20230115_134539.jpg" 
+              data-caption="Birthday cakes 🎂 comes in all shapes and sizes, but they always look yummy 😋" 
+              aria-ratio="4/3">
+              <img class="mansory-img" src="./images/20230115_134539.jpg" alt="White and blue icing sugar cake" loading="lazy">
+              <figcaption>
+                8" cake with white and royal blue buttercream design
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20230430_160650.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20230430_160650.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                Premium fried Chin-Chin by Ruby pastries
+              </figcaption>
+            </figure>
+            <figure
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20230614_175246.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20230614_175246.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                Premium milky puff-puff by Ruby pastries
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20250214_131039.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20250214_131039.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                Premium juicy meatpie by Ruby pastries
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20250214_131039.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20250214_131039.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                Premium juicy meatpie by Ruby pastries
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20250427_163902.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20250427_163902.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                8" 3-layer cake with buttercream design
+              </figcaption>
+            </figure>
+            <figure
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20250903_145400.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20250903_145400.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                Premium shaped cake by Ruby pastries
+              </figcaption>
+            </figure>
+            <figure 
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/20251110_151623(1).jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/20251110_151623(1).jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                3" bento cake with buttercream design
+              </figcaption>
+            </figure>
+            <figure
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/IMG_20201109_150533.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/IMG_20201109_150533.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                8" 3-layer with fondant decoration
+              </figcaption>
+            </figure>
+            <figure
+              class="mansory-card"
+              tabindex="10"
+              data-index="11"
+              data-src="./images/IMG_20210209_184248.jpg" 
+              data-caption="Premium fried Chin-Chin by Ruby pastries. Packaged and prepared to ship at only N8,000 per bucket." 
+              aria-ratio="4/5">
+              <img class="mansory-img" src="./images/IMG_20210209_184248.jpg" alt="Premium fried Chin-Chin by Ruby pastries" loading="lazy">
+              <figcaption>
+                8" 1-layer cake with buttercream design
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container content">
+            <div class="cols">
+                <div class="col-6">
+                    <h3>What next?</h3>
+                    <p>If you are pleased or piqued with my work so far and you would like to feature me on your next project</p>
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-branded" href="https://wa.me/07031586098">Let's Chat 💬</a>
+                    </div>
+                </div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+      </div>
+
+      <dialog id="imgModal">
+        <div class="btn-close" onclick="document.querySelector('#imgModal').close()">✕</div>
+        <div class="content">
+          <img id="modalImg" src="" alt="expanded image">
+          <figcaption id="modalCaption"></figcaption>
+        </div>
+      </dialog>
+    </section>
+
+    <footer>
+      <div class="container">
+        <a class="brand-logo" href="" target="_self">
+          <img class="brand-icon" src="./images/brand_logo.png" alt="Ruby Pastries logo" loading="eager">
+          <span>Portfolio</span>
+        </a>
+        <ul class="nav-links">
+          <li><a class="link" href="./project.html">Projects</a></li>
+          <li><a class="link" href="./gallery.html">Gallery</a></li>
+          <li><a class="link" href="./about.html">About</a></li>
+        </ul>
+        <ul>
+          <li data-tooltip="Connect with me on Instagram"><a href="instagram.com/@ruby_pastires" target="_blank">
+            <svg viewBox="0 0 196.28 196.28">
+              <g>
+                <path stroke="none" fill="currentColor" d="M99.67,79.69c-10.37-.01-18.44,8.07-18.43,18.45,0,10.22,8.13,18.28,18.4,18.28,10.24-.01,18.32-8.09,18.32-18.35.01-10.27-8.05-18.36-18.29-18.38ZM99.67,79.69c-10.37-.01-18.44,8.07-18.43,18.45,0,10.22,8.13,18.28,18.4,18.28,10.24-.01,18.32-8.09,18.32-18.35.01-10.27-8.05-18.36-18.29-18.38ZM156.92,0H39.36C17.62,0,0,17.62,0,39.36v117.56c0,21.74,17.62,39.36,39.36,39.36h117.56c21.74,0,39.36-17.62,39.36-39.36V39.36c0-21.74-17.62-39.36-39.36-39.36ZM166.59,128.15c-.18,12.94-5.46,23.33-16.19,30.74-6.12,4.22-13.04,6.12-20.41,6.15-20.23.08-40.46.11-60.69.01-18.32-.09-33.01-12.57-36.17-30.58-.37-2.11-.52-4.29-.52-6.43-.04-19.96-.05-39.92-.01-59.88.03-18.52,12.21-33.15,30.39-36.52,2.1-.39,4.28-.57,6.43-.57,20.09-.05,40.19-.08,60.28-.01,18.31.05,32.88,12.22,36.28,30.18.45,2.38.64,4.81.64,7.24,0,9.91,0,19.82,0,29.74s.11,19.96-.03,29.93ZM130.7,42.88c-20.71-.03-41.41-.03-62.11,0-13.35.02-24.15,10.85-24.17,24.23-.03,20.63-.03,41.27,0,61.91.02,13.36,10.84,24.18,24.19,24.22,10.31.03,20.63,0,30.95,0s20.77.03,31.16,0c13.21-.05,24.04-10.89,24.06-24.14.03-20.7.03-41.41,0-62.11-.02-13.25-10.85-24.09-24.08-24.11ZM99.62,128.24c-16.43.02-30.18-13.72-30.2-30.17-.02-16.43,13.71-30.18,30.17-30.19,16.43-.02,30.17,13.71,30.19,30.16.02,16.43-13.71,30.17-30.16,30.2ZM134.48,69.12c-3.01.06-5.88-2.74-5.94-5.79-.07-3,2.73-5.88,5.78-5.94,3-.06,5.88,2.74,5.94,5.79.07,3.01-2.73,5.88-5.78,5.94ZM99.67,79.69c-10.37-.01-18.44,8.07-18.43,18.45,0,10.22,8.13,18.28,18.4,18.28,10.24-.01,18.32-8.09,18.32-18.35.01-10.27-8.05-18.36-18.29-18.38Z"/>
+              </g>
+            </svg>
+          </a></li>
+          <li data-tooltip="Let's see on Facebook"><a href="https://facebook.com/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.28 196.28">
+              <g stroke="none" fill="currentColor">
+                <path d="M196.28,39.36v117.56c0,6.5-1.58,12.63-4.37,18.03-6.54,12.67-19.76,21.33-34.99,21.33h-32.7c-.03-.36-.07-.72-.07-1.08-.01-19.72,0-39.43-.04-59.14,0-1.57.48-2.1,2.07-2.08,7.32.07,14.64-.04,21.96.07,1.81.03,2.39-.67,2.65-2.3,1.42-8.81,2.91-17.61,4.38-26.41.35-2.07.27-2.19-1.79-2.19h-26.8c-2.42-.01-2.44-.01-2.44-2.34v-16.25c0-2.77,0-2.78,2.7-2.78,8.93,0,17.87-.02,26.8.02,1.34.01,2-.33,1.99-1.84-.04-9.1-.03-18.21-.01-27.32.01-1.26-.47-1.75-1.73-1.73-10.72.18-21.45-.4-32.15.31-8.89.58-16.05,4.64-21.64,11.49-5.08,6.24-6.88,13.55-6.83,21.45.04,5.65-.04,11.3.04,16.95.02,1.58-.5,2.09-2.08,2.07-5.47-.08-10.95-.04-16.43-.03-2.21,0-2.27.06-2.27,2.2v26.46c0,2.13.07,2.19,2.29,2.19,5.3.01,10.6,0,15.9.01,2.55,0,2.56.01,2.56,2.57,0,19.36,0,38.73-.01,58.1,0,.53-.05,1.07-.08,1.6h-53.83c-1.94,0-3.85-.14-5.72-.41C14.61,193.1,0,176.72,0,156.92V39.36C0,17.62,17.62,0,39.36,0h117.56c21.73,0,39.36,17.62,39.36,39.36Z"/>
+              </g>
+            </svg>
+          </a></li>
+          <li data-tooltip="Ruby Pastries is on X(Twitter) too"><a href="https://x.com/" target="_blank">
+            <svg viewBox="0 0 196.28 196.28">
+              <g stroke="none" fill="currentColor">
+                  <path d="M106.92,104.02c-12.96-18.53-26.35-37.69-39.49-56.56-.53-.75-.76-.79-1.34-.79h-.13c-1.35.05-2.79.06-4.64.06-.85,0-3.58-.01-4.11-.01,14.89,21.32,29.8,42.64,44.74,64.02l6.77,9.68c6.69,9.57,13.39,19.13,20.05,28.71.25.37.38.47.38.47.01.01.05.01.13.01h.11c.78-.05,1.61-.07,2.61-.07.63,0,1.25.01,1.88.01.6.01,1.19.02,1.79.02h3.09c-5.96-8.52-11.92-17.05-17.88-25.59l-13.96-19.96Z"/>
+                  <path d="M156.92,0H39.36C17.62,0,0,17.63,0,39.37v117.55c0,21.74,17.62,39.36,39.36,39.36h117.56c21.74,0,39.36-17.62,39.36-39.36V39.37c0-21.74-17.62-39.37-39.36-39.37ZM160.67,160.91c-.65,1.35-1.99,2.16-3.58,2.16-.43,0-.8-.06-1.1-.1-.1,0-.19-.02-.27-.03-2.07.01-4.14.01-6.21.01h-8.93c-4.52-.01-9.85,0-15.11.06h-.13c-2.85,0-4.95-1.14-6.62-3.59-7.46-10.93-15.07-22.02-22.44-32.74l-7.01-10.2-5.34,6.21c-10.39,12.06-21.14,24.54-31.65,36.85-1.38,1.63-3.41,3.5-6.72,3.5-.34,0-.7-.02-1.07-.06-.45-.06-.96-.08-1.6-.08-.45,0-.91,0-1.37.02-.51.02-1.02.03-1.52.03h-.4c-.21.02-.42.04-.63.04-1.55,0-2.85-.87-3.4-2.28-.33-.85-.62-2.53,1.16-4.18,6.72-7.83,13.45-15.65,20.18-23.47l6.34-7.38c5.89-6.86,11.98-13.95,18.03-20.88-14.97-21.7-30.11-43.76-44.33-64.47-.06-.08-.13-.15-.2-.23-.54-.61-2.18-2.46-1.1-4.8.64-1.4,2-2.24,3.64-2.24.42,0,.78.05,1.08.09.09.01.18.03.23.03,4.03,0,8.05,0,12.08,0,6.18,0,12.37,0,18.62-.04,2.53,0,4.39.99,5.85,3.13,8.23,12.05,16.64,24.27,24.77,36.1l3.21,4.67,6.7-7.8c9.65-11.22,19.29-22.43,28.91-33.66,1.41-1.63,3.08-2.43,5.13-2.43h.22c1.06.03,2.12.04,3.22.04.75,0,4.11,0,5.07,0h6.52l-7.14,8.34c-1.95,2.27-3.78,4.4-5.61,6.54l-7.11,8.26c-9.14,10.63-18.59,21.62-27.93,32.38.03.05.07.11.12.18,14.98,21.75,29.77,43.28,46.16,67.15.06.08.14.16.22.25.52.61,2.12,2.44,1.06,4.64Z"/>
+              </g>
+            </svg>
+          </a></li>
+          <li data-tooltip="Start a conversation"><a href="https://wa.me/07031536098" target="_blank">
+            <svg viewBox="0 0 196.28 196.28">
+              <g stroke="none" fill="currentColor">
+                  <path d="M145.2,89.37c-5.8-32.6-41.69-49.6-70.63-33.47-17.11,9.54-26.76,29.24-23.84,48.46.91,6.01,2.89,11.62,5.77,16.93.74,1.36.91,2.67.57,4.21-1.1,4.91-2.07,9.86-3.07,14.79-.44,2.19-.23,2.41,1.9,1.92,4.6-1.07,9.21-2.07,13.76-3.3,2.07-.55,3.78-.32,5.65.69,7.08,3.81,14.65,5.84,22.74,5.73,2.05-.04,4.07-.07,6.11-.33,27.12-3.52,45.81-28.84,41.04-55.63ZM129.44,117.79c-2.69,4.05-5.78,7.7-10.93,8.65-1.5.28-3.04.31-4.56.46-5.87,0-11.23-1.83-16.22-4.67-9.91-5.65-18.13-13.21-24.57-22.63-3.15-4.61-5.16-9.68-5.48-15.32-.16-2.85.3-5.58,1.79-8.09,1.51-2.56,3.5-4.72,5.79-6.58,2.31-1.89,5.3-1.26,6.59,1.45,1.72,3.63,3.27,7.34,4.9,11.01.73,1.63.42,3.11-.6,4.5-.52.72-1.08,1.42-1.62,2.13-2.21,2.88-2.32,4.7-.03,7.57,4.9,6.14,10.68,11.32,17.4,15.4,3.33,2.02,5.01,1.69,7.79-1.1.63-.63,1.24-1.3,1.91-1.88,1.23-1.05,2.6-1.52,4.25-1.03,3.67,1.07,7.38,2.03,11.04,3.14,3.56,1.07,4.61,3.91,2.55,6.99Z"/>
+                  <path d="M156.92,0H39.37C17.63,0,0,17.62,0,39.36v117.56c0,21.67,17.53,39.26,39.19,39.36h117.73c.41,0,.82,0,1.23-.02,20.83-.64,37.59-17.47,38.12-38.32v-.17c.01-.28.01-.57.01-.85V39.36c0-21.74-17.62-39.36-39.36-39.36ZM158.53,97.25c.27,29.12-20.9,55.47-51.17,60.12-11.86,1.83-23.27.28-34.2-4.65-1.48-.66-2.84-.81-4.42-.43-8.87,2.15-17.75,4.22-26.63,6.32-.37.08-.74.18-1.12.25-2.61.44-3.67-.59-3.15-3.16,1.53-7.5,2.89-15.04,4.69-22.47,1.2-4.98.97-9.37-.98-14.33-13.04-33.03,6.54-70.82,40.81-79.8,34.28-8.99,68.38,12.6,75.14,46.89.76,3.89,1.16,7.82,1.03,11.26Z"/>
+              </g>
+            </svg>
+          </a></li>
+          <li data-tooltip="Let's talk. Email me."><a href="mailto:kemisola3131@gmail.com" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.28 196.28">
+              <g>
+                <path stroke="none" fill="currentColor" d="M156.92,0H39.36C17.62,0,0,17.62,0,39.36v117.56c0,21.74,17.62,39.36,39.36,39.36h117.56c21.74,0,39.36-17.62,39.36-39.36V39.36c0-21.74-17.62-39.36-39.36-39.36ZM149.87,49.66l.81,2.94c.32,1.16.51,3.4-1.88,5.34-4.95,4.96-9.9,9.91-14.85,14.86-10.43,10.43-20.86,20.86-31.26,31.31-.45.46-1.05.99-1.78,1.41-.74.42-1.63.72-2.67.72-2.33,0-3.9-1.57-4.41-2.09-11.75-11.81-23.52-23.58-35.3-35.35l-10.89-10.9c-.28-.27-.53-.56-.88-.96l-.55-.61-5.97-6.67h109.63ZM38.76,134.47l-.07.09c-.25.31-.69.88-1.37,1.37s-1.6.91-2.79.91c-.56,0-1.11-.1-1.64-.29-1.37-.49-3.06-1.73-3.31-4.85v-.14c-.16-.93-.15-1.79-.14-2.49v-.43s0-42.18,0-42.18c0-8.29,0-16.58.01-24.87,0-.18-.01-.37-.02-.56-.06-1.41-.23-5.16,3.21-6.71.63-.29,1.3-.44,1.99-.44,2.57,0,4.01,1.88,4.78,2.89.11.15.21.29.31.39,4.53,4.52,9.06,9.04,13.58,13.56,6.69,6.68,13.37,13.37,20.09,20.02.95.94,2.21,2.44,2.21,4.59,0,2.39-1.61,3.99-2.22,4.59-7.77,7.7-15.64,15.57-23.25,23.19-3.79,3.79-7.58,7.57-11.37,11.36ZM46.13,140.94l-.46-3.48c-.25-1.9.47-3.54,2.14-4.88l.04-.03c3.14-3.15,6.29-6.3,9.44-9.44,6.44-6.44,13.11-13.11,19.62-19.69.93-.95,2.43-2.22,4.59-2.22,2.43,0,4.03,1.66,4.63,2.28,3.16,3.28,6.46,6.56,9.65,9.73.82.81,1.64,1.63,2.46,2.44l.97-.96c3.87-3.87,7.74-7.73,11.59-11.61.54-.55,1.99-2.01,4.22-2.01,1.47,0,2.82.61,4.03,1.83,7.07,7.11,14.16,14.2,21.25,21.28l9.09,9.09c.48.49.76.97.94,1.29.04.06.09.15.15.24l3.91,6.14H46.13ZM163.77,136.38c-.61.26-1.24.39-1.9.39-2.55,0-4-1.88-4.78-2.89-.12-.15-.23-.3-.33-.41-4.19-4.17-8.37-8.35-12.55-12.53-6.86-6.86-13.96-13.96-20.98-20.89-.99-.98-2.3-2.53-2.3-4.73,0-2.17,1.25-3.69,2.34-4.77,7.58-7.5,15.24-15.16,22.66-22.58,3.89-3.89,7.79-7.78,11.68-11.67l.08-.11c.5-.65,1.82-2.38,4.26-2.38.62,0,1.24.12,1.83.36,1.94.78,3.01,2.46,3.18,5,.01.08.01.16.01.21.12.83.11,1.59.1,2.2v.45s-.01,41.36-.01,41.36c0,8.57.01,17.14,0,25.71,0,.17.01.36.02.55.06,1.43.23,5.22-3.31,6.73Z"/>
+              </g>
+            </svg>
+          </a></li>
+        </ul>
+        <div class="copyright">Ruby Pastries® Copyright © 2025. All rights reserved.</div>        
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll('.mansory figure').forEach(fig => {
+        fig.addEventListener('click', () => {
+          document.querySelector('#modalImg').setAttribute('src', fig.getAttribute('data-src'));
+          document.querySelector('#modalCaption').textContent = fig.getAttribute('data-caption');
+          document.querySelector('#imgModal').showModal();
+        })
+      })
+    </script>
+  </body>
+</html>
