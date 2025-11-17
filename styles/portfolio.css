@@ -410,6 +410,10 @@ footer {
     align-content: center;
   }
 }
+.collapse.navbar-collapse {
+  margin-top: 20px;
+}
+
 .navigation-links {
 display: flex;
 margin-top: 40px;
