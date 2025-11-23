@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-UK">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="light-dark" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,6 +19,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link href="styles/portfolio.css" rel="stylesheet" />
+    <script src="js/lottie-player.js"></script>
     <title>Ruby Pastries - Elizabeth Ayangbola</title>
   </head>
   <body>
@@ -60,331 +60,52 @@
     </nav>
 
     <section>
-      <div class="hero">
-        <div class="container">
-          <div style="text-align: center">
-            <div>
-              <div class="pre-title">👋Hi! Glad to have you here 😃</div>
-              <h1 class="display-1 italics">Liz David's Portfolio</h1>
-              <div class="subtitle">
-                <code>A web developer,</code> UI designer, with
-                <em>a passion for baking</em>
-              </div>
-            </div>
-            <p class="leading">
-              I am the proud founder and CEO of Ruby Pastries. A brand built on
-              my love & passion for baking, my commitment to excellence. It is
-              recognized by its exquisite, handcrafted designs.
-            </p>
-            <div class="buttons" role="group">
-              <a href="/project.html" target="_self" class="btn btn-branded"
-                >View my Project</a
-              >
-              <a
-                href="/about.html"
-                target="_self"
-                class="btn btn-outline-primary"
-                >About Me</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section">
-        <div class="container">
-          <h3 class="text-center">Featured Projects</h3>
-          <div class="content cols">
-            <div class="col-6">
-              <figure>
-                <img
-                  class="cover-img"
-                  src="./images/cake2.jpg"
-                  alt="a photo from when I produced Yogurt"
-                  loading="lazy"
-                />
-                <figcaption>
-                  A photo of the yoghurt production on my first attempt, with my
-                  collegue Cynthia.
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-6">
-              <h2>Bento Cake</h2>
-              <p class="text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
-              </p>
-              <div class="buttons">
-                <a
-                  class="button md btn-outline-primary"
-                  href="./projects/yogurt_project.htm"
-                  target="_self"
-                  >Learn More →</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="content cols reversed">
-            <div class="col-6 text-right">
-              <h2>Meatpie</h2>
-              <p class="text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
-              </p>
-              <div class="buttons">
-                <a
-                  class="button md btn-outline-primary"
-                  href="./projects/yogurt_project.htm"
-                  target="_self"
-                  >Learn More →</a
-                >
-              </div>
-            </div>
-            <div class="col-6">
-              <figure>
-                <img
-                  class="cover-img"
-                  loading="lazy"
-                  src="./images/pie.jpg"
-                  alt="A screenshot of my weather app to showcase my web development and api integration skill"
-                />
-                <figcaption>
-                  A screenshot of my Weather App which showcases my web
-                  developement and API integration skills.
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-
-          <div class="content cols">
-            <div class="col-6">
-              <figure>
-                <img
-                  class="cover-img"
-                  loading="lazy"
-                  src="./images/cake3.jpg"
-                  alt="A screenshot of my dictionary app to showcase my web development and api integration skill"
-                />
-                <figcaption>
-                  A screenshot of my Dictionary web app which showcases my web
-                  development and API integration skill.
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-6 text-right">
-              <h2>Mini Cakes</h2>
-              <p class="text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
-              </p>
-              <div class="buttons">
-                <a
-                  class="button md btn-outline-primary"
-                  href="./projects/yogurt_project.htm"
-                  target="_self"
-                  >Learn More →</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section" style="background-color: var(--background-light)">
+      <div class="hero" style="background-color: unset">
         <div class="container wider">
-          <h2>Gallery</h2>
-          <p>Immerse yourself in the beauty of my tapestry.</p>
-
-          <div class="mansory">
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="4/5"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20210113_112838.jpg"
-                alt="3-inch bento birthday"
-                loading="lazy"
-              />
-              <figcaption>3" bento cake with butter cream design</figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="3/4"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20210113_112848.jpg"
-                alt="3-inch bento birthday cake"
-                loading="lazy"
-              />
-              <figcaption>3" bento cake with butter cream design</figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="3/4"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20210331_080044.jpg"
-                alt="3-inch bento birthday cake"
-                loading="lazy"
-              />
-              <figcaption>3" 2-layer cake with butter cream design</figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="4/5"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20210712_082511.jpg"
-                alt="3-inch bento birthday cake"
-                loading="lazy"
-              />
-              <figcaption>
-                4" 2-layer birthday cake with butter cream design
-              </figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="4/5"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20210731_200350.jpg"
-                alt="3-inch bento birthday cake"
-                loading="lazy"
-              />
-              <figcaption>Chocolate topping decoration</figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="9/16"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20220916_105143.jpg"
-                alt="3-inch bento birthday cake"
-                loading="lazy"
-              />
-              <figcaption>Cup cakes</figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="9/16"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20220924_215234.jpg"
-                alt="3-inch bento birthday cake"
-                loading="lazy"
-              />
-              <figcaption>Naked cakes</figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="16/10"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20221015_213610.jpg"
-                alt="Naked 5inch cake before decoration"
-                loading="lazy"
-              />
-              <figcaption>
-                Naked 8" cake before it is sliced and decorated.
-              </figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="16/10"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20221023_183331.jpg"
-                alt="naked cup cakes by Ruby Pastries"
-                loading="lazy"
-              />
-              <figcaption>
-                Naked cup cakes that would leave you silivating
-              </figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="4/5"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20221107_073613.jpg"
-                alt="2 step cake"
-                loading="lazy"
-              />
-              <figcaption>Flowery decoration</figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="4/3"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20230115_134539.jpg"
-                alt="White and blue icing sugar cake"
-                loading="lazy"
-              />
-              <figcaption>
-                8" cake with white and royal blue decoration
-              </figcaption>
-            </figure>
-            <figure
-              onclick="expandImg(this)"
-              class="mansory-card"
-              aria-ratio="4/5"
-            >
-              <img
-                class="mansory-img"
-                src="./images/20230430_160650.jpg"
-                alt="Premium fried Chin-Chin by Ruby pastries"
-                loading="lazy"
-              />
-              <figcaption>Premium fried Chin-Chin by Ruby pastries</figcaption>
-            </figure>
+          <div class="cols">
+            <div class="col-6">
+              <div>
+                <div class="pre-title">Hi! I am</div>
+                <h1 class="display-1">Elizabeth David</h1>
+                <div class="subtitle">
+                  <code>A web developer,</code> UI designer, with
+                  <em>a passion for baking</em>
+                </div>
+              </div>
+              <p class="leading">
+                I am the proud founder and CEO of Ruby Pastries. A brand built
+                on my love & passion for baking, my commitment to excellence. It
+                is recognized by its exquisite, handcrafted designs.
+              </p>
+              <div class="buttons" role="group">
+                <a href="mailto:kemisola3131@gmail.com" target="_self" class="btn btn-branded"
+                  >Email</a
+                >
+                <a
+                  href="https://github.com/Ruby-Gem"
+                  target="_self"
+                  class="btn btn-outline-primary"
+                  >github</a
+                >
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="">
+                <lottie-player
+                  src="./images/animated-photos.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 100%; aspect-ratio: 1/1"
+                  loop
+                  autoplay
+                >
+                </lottie-player>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <dialog id="imgModal">
-        <div
-          class="btn-close"
-          onclick="document.querySelector('#imgModal').close()"
-        >
-          ✕
-        </div>
-        <div class="content">
-          <img id="modalImg" src="" alt="expanded image" />
-          <figcaption id="modalCaption"></figcaption>
-        </div>
-      </dialog>
     </section>
-
     <footer>
       <div class="container">
         <a class="brand-logo" href="" target="_self">
@@ -479,16 +200,5 @@
         </div>
       </div>
     </footer>
-
-    <script>
-      function expandImg(e) {
-        document
-          .querySelector("#modalImg")
-          .setAttribute("src", e.querySelector("img").getAttribute("src"));
-        document.querySelector("#modalCaption").textContent =
-          e.querySelector("figcaption").textContent;
-        document.querySelector("#imgModal").showModal();
-      }
-    </script>
   </body>
 </html>

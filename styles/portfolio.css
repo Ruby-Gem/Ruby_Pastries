@@ -48,6 +48,11 @@
   --gap-md: 20px;
   --gap-sm: 12px;
   --gap-xs: 4px;
+  /** media screen sizes **/
+  --screen-desktop: 1024px;
+  --screen-tablet: 720px;
+  --screen-mobile: 480px;
+  --screen-smobile: 380px;
 }
 
 body {
@@ -282,6 +287,11 @@ nav {
         width: 50%;
       }
     }
+
+    @media screen {
+    
+      
+    }
   }
 
   & .menu-icon {
@@ -381,6 +391,18 @@ footer {
   justify-content: center;
 }
 
+@media (max-width: 720px) {
+  .cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &.reversed {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
 .pre-title {
   color: var(--primary-60);
   font-size: 20px;
@@ -410,9 +432,8 @@ footer {
     align-content: center;
   }
 }
-.collapse.navbar-collapse {
-  margin-top: 20px;
-}
+
+
 
 .navigation-links {
 display: flex;

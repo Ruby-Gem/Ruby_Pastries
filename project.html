@@ -19,15 +19,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link href="styles/portfolio.css" rel="stylesheet" />
-    <title>Ruby Portfolio</title>
+    <title>Ruby Pastries - Elizabeth Ayangbola</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-4">
-      <div class="container wide container d-flex justify-content-between align-items-center flex-wrap w-100">
-
-        <!-- Logo -->
-        <a class="brand-logo navbar-brand" href="index.html" target="_self">
+    <nav>
+      <div class="container wide">
+        <a class="brand-logo" href="" target="_self">
           <img
             class="brand-icon"
             src="./images/brand_logo.png"
@@ -36,56 +34,28 @@
           />
           <span>Portfolio</span>
         </a>
-        <!-- Bootstrap hamburger toggle -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Collapsible nav content -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav-links navbar-nav me-auto" role="list">
-            <li class="nav-item">
-              <a
-                class="link nav-link active"
-                aria-current="page"
-                href="index.html"
-                target="_self"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="link nav-link" href="./project.html" target="_self"
-                >Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="link nav-link" href="./gallery.html" target="_self"
-                >Gallery</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="link nav-link" href="./about.html" target="_self"
-                >About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="button btn btn-outline-primary sm nav-link"
-                href="tel:7031536098"
-                target="_blank"
-                >Call me 📞</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="nav-links" aria-hidden="false" role="list">
+          <li>
+            <a class="link current" href="index.html" target="_self">Home</a>
+          </li>
+          <li>
+            <a class="link" href="./project.html" target="_self">Projects</a>
+          </li>
+          <li>
+            <a class="link" href="./gallery.html" target="_self">Gallery</a>
+          </li>
+          <li>
+            <a class="link" href="./about.html" target="_self">About</a>
+          </li>
+        </ul>
+        <ul class="nav-links">
+          <li>
+            <a class="button btn-branded sm" href="contact.html" target="_blank"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <div class="mobile-only menu-icon"></div>
       </div>
     </nav>
 
@@ -110,7 +80,6 @@
                 </figcaption>
               </figure>
               <h3 class="text-center">Chocolate Toppings</h3>
-              <p class="text-center text-muted">Built with HTML and CSS</p>
             </div>
             <div class="col-10 col-md-3 text-right">
               <figure>
