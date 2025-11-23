@@ -412,7 +412,7 @@ footer {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 0.6em;
-}
+} 
 
 .page-restriction {
     max-width: 1240px;
@@ -432,8 +432,6 @@ footer {
     align-content: center;
   }
 }
-
-
 
 .navigation-links {
 display: flex;
