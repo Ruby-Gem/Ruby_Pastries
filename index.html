@@ -58,6 +58,7 @@
         </ul>
         <div class="mobile-only menu-icon"></div>
       </div>
+      <div class="scroll-watcher"></div>
     </nav>
 
     <section>
@@ -400,6 +401,7 @@
           <li><a class="link" href="./project.html">Projects</a></li>
           <li><a class="link" href="./gallery.html">Gallery</a></li>
           <li><a class="link" href="./about.html">About</a></li>
+          <li><a class="link" href="./contact.html">Contact Me</a></li>
         </ul>
         <ul>
           <li data-tooltip="Connect with me on Instagram">
@@ -482,11 +484,8 @@
 
     <script>
       function expandImg(e) {
-        document
-          .querySelector("#modalImg")
-          .setAttribute("src", e.querySelector("img").getAttribute("src"));
-        document.querySelector("#modalCaption").textContent =
-          e.querySelector("figcaption").textContent;
+        document.querySelector("#modalImg").setAttribute("src", e.querySelector("img").getAttribute("src"));
+        document.querySelector("#modalCaption").textContent = e.querySelector("figcaption").textContent;
         document.querySelector("#imgModal").showModal();
       }
     </script>
