@@ -57,6 +57,7 @@
         </ul>
         <div class="mobile-only menu-icon"></div>
       </div>
+      <div class="scroll-watcher"></div>
     </nav>
     <section>
       <div class="hero">
@@ -74,7 +75,7 @@
               us.
               <strong>Message us on WhatsApp today</strong>
             </p>
-            <div class="buttons enters" role="group">
+            <div class="buttons align-center enters" role="group">
               <a
                 href="https://wa.me/07031586098"
                 target="_blank"
@@ -443,7 +444,7 @@
                 like to feature me on your next project
               </p>
               <div class="btn-group enters" role="group">
-                <a class="btn btn-branded" href="https://wa.me/07031586098"
+                <a class="btn btn-branded" href="https://wa.me/07031586098" target="_blank"
                   >WhatsApp Me 💬</a
                 >
               </div>
@@ -482,7 +483,7 @@
           <li><a class="link" href="./project.html">Projects</a></li>
           <li><a class="link" href="./gallery.html">Gallery</a></li>
           <li><a class="link" href="./about.html">About</a></li>
-          <li><a class="link" href="./contact.html">Contact Me</a></li>
+          <li><a class="link" href="./contact.html">Contact</a></li>
         </ul>
         <ul>
           <li data-tooltip="Connect with me on Instagram">
@@ -563,17 +564,6 @@
       </div>
     </footer>
 
-    <script>
-      document.querySelectorAll(".mansory figure").forEach((fig) => {
-        fig.addEventListener("click", () => {
-          document
-            .querySelector("#modalImg")
-            .setAttribute("src", fig.getAttribute("data-src"));
-          document.querySelector("#modalCaption").textContent =
-            fig.getAttribute("data-caption");
-          document.querySelector("#imgModal").showModal();
-        });
-      });
-    </script>
+    <script src="js/portfolio.js" defer></script>
   </body>
 </html>
